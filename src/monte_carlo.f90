@@ -1,7 +1,7 @@
 ! Monte Carlo simulation of light scattering by a spherical absorbing particle
 module monte_carlo
   use ray_tracing
-  use parallel
+  use omp_lib
   implicit none
 
 contains
