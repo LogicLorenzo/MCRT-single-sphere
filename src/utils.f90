@@ -10,7 +10,7 @@ contains
 
     open(newunit=unit, file=filename, status='replace', action='write')
     do i = 1, size(results, 1)
-      write(unit, '(F8.4, ",", F8.4)') results(i, 1), results(i, 2)
+      write(unit, '(F8.4, ",", F8.4, ",", F8.4, ",", F8.4)') results(i, 1), results(i, 2), results(i, 3), results(i, 4)
     end do
     close(unit)
 
