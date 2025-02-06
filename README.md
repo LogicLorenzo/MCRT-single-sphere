@@ -10,7 +10,6 @@ monte-carlo-ray-tracing
 │   ├── main.f90          # Entry point of the application
 │   ├── monte_carlo.f90   # Monte Carlo simulation implementation
 │   ├── ray_tracing.f90   # Ray tracing logic
-│   ├── parallel.f90      # Parallel programming features
 │   └── utils.f90         # Utility functions and data structures
 ├── Makefile               # Build instructions
 └── README.md              # Project documentation
