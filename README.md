@@ -48,10 +48,10 @@ The project utilizes OpenMP for parallel computing to speed up the Monte Carlo s
 
 The main program performs the following steps:
 
-1- Shoots photons at the -z face of the sphere. 
-2- Photon is transmitted into the sphere. 
-4- Photon bounces around inside the sphere until it loses most of its energy. 
-5- Outputs the total phase shift, attenuation and direction of all photons. 
+1. Shoots photons at the -z face of the sphere. 
+2. Photon is transmitted into the sphere. 
+4. Photon bounces around inside the sphere until it loses most of its energy. 
+5. Outputs the total phase shift, attenuation and direction of all photons. 
 
 ## Future Works
 
