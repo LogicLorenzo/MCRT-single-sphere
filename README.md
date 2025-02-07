@@ -1,4 +1,4 @@
-# Monte Carlo Ray Tracing
+# Monte Carlo Ray Tracing for a Single Sphere
 
 This project implements a Monte Carlo ray tracing algorithm for light hitting a single sphere in Fortran, utilizing parallel programming techniques to enhance performance. The goal is to estimate the average phase-shift, and attenuation of the light. 
 
