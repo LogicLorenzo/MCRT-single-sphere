@@ -39,12 +39,16 @@ After building the project, you can run the application with:
 ./monte_carlo_ray_tracing
 ```
 
-You may need to specify input parameters depending on the implementation. Currently all parameters are simply coded in the software, though the change is simple. 
+You may need to specify input parameters depending on the implementation. Currently, all parameters are given in the software, though the change is simple. 
 
 ## Algorithms
 
 - **Monte Carlo Simulation**: A statistical method used to estimate the expected value of a function by sampling random points.
 - **Ray Tracing**: A rendering technique for generating images by tracing the path of rays through a scene.
+
+## Future Works
+
+- Add Brownian motion for photons in the case of a highly scattering material
 
 ## Contributing
 
